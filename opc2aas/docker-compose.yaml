@@ -51,7 +51,8 @@ services:
     depends_on:
       - opcua
   databridge:
-    image: eclipsebasyx/databridge:1.0.0-SNAPSHOT
+    # image: eclipsebasyx/databridge:1.0.0-SNAPSHOT
+    image: eclipsebasyx/databridge:1.0.0-milestone-07
     container_name: databridge
     volumes:
       - "./DatabridgeDemo/DatabridgeConfig:/usr/share/config"

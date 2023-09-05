@@ -1,0 +1,211 @@
+<?xml version="1.0"?>
+<aas:aasenv xmlns:IEC="http://www.admin-shell.io/IEC61360/2/0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:abac="http://www.admin-shell.io/aas/abac/2/0" xsi:schemaLocation="http://www.admin-shell.io/aas/2/0 AAS.xsd http://www.admin-shell.io/IEC61360/2/0 IEC61360.xsd" xmlns:aas="http://www.admin-shell.io/aas/2/0">
+  <aas:assetAdministrationShells>
+    <aas:assetAdministrationShell>
+      <aas:idShort>MyAAS</aas:idShort>
+      <aas:description>
+        <aas:langString lang="de">Automatisch generierte Verwaltungsschale aus dem OPC2AAS Tool.</aas:langString>
+        <aas:langString lang="en">Automatically generated Asset Administration Shell from the OPC2AAS tool.</aas:langString>
+      </aas:description>
+      <aas:identification idType="IRI">MyAAS</aas:identification>
+      <aas:administration>
+        <aas:version>1.0</aas:version>
+        <aas:revision>120</aas:revision>
+      </aas:administration>
+      <aas:assetRef>
+        <aas:keys />
+      </aas:assetRef>
+      <aas:submodelRefs>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="Custom">f5322694-06a9-4c81-9c35-5455b722899f</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+        <aas:submodelRef>
+          <aas:keys>
+            <aas:key type="Submodel" local="true" idType="Custom">f0816e53-4bdb-45f4-b41d-5bd8d1eff701</aas:key>
+          </aas:keys>
+        </aas:submodelRef>
+      </aas:submodelRefs>
+      <aas:conceptDictionaries />
+    </aas:assetAdministrationShell>
+  </aas:assetAdministrationShells>
+  <aas:assets />
+  <aas:submodels>
+    <aas:submodel>
+      <aas:idShort>Robot</aas:idShort>
+      <aas:identification idType="Custom">f5322694-06a9-4c81-9c35-5455b722899f</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>UR3e</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>Data</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>Manufacturer</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys />
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>InUse</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys />
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>boolean</aas:valueType>
+                        <aas:value>False</aas:value>
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>CurrentAngle</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys />
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>int</aas:valueType>
+                        <aas:value>0</aas:value>
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>BaseTemperature</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys />
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>float</aas:valueType>
+                        <aas:value>0</aas:value>
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+    <aas:submodel>
+      <aas:idShort>Motor</aas:idShort>
+      <aas:identification idType="Custom">f0816e53-4bdb-45f4-b41d-5bd8d1eff701</aas:identification>
+      <aas:kind>Instance</aas:kind>
+      <aas:semanticId>
+        <aas:keys />
+      </aas:semanticId>
+      <aas:qualifier />
+      <aas:submodelElements>
+        <aas:submodelElement>
+          <aas:submodelElementCollection>
+            <aas:idShort>LexiumBMH</aas:idShort>
+            <aas:kind>Instance</aas:kind>
+            <aas:semanticId>
+              <aas:keys />
+            </aas:semanticId>
+            <aas:qualifier />
+            <aas:ordered>false</aas:ordered>
+            <aas:allowDuplicates>false</aas:allowDuplicates>
+            <aas:value>
+              <aas:submodelElement>
+                <aas:submodelElementCollection>
+                  <aas:idShort>Data</aas:idShort>
+                  <aas:kind>Instance</aas:kind>
+                  <aas:semanticId>
+                    <aas:keys />
+                  </aas:semanticId>
+                  <aas:qualifier />
+                  <aas:ordered>false</aas:ordered>
+                  <aas:allowDuplicates>false</aas:allowDuplicates>
+                  <aas:value>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>Manufacturer</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys />
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>string</aas:valueType>
+                        <aas:value />
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>InUse</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys />
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>boolean</aas:valueType>
+                        <aas:value>False</aas:value>
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>RotationSpeed</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys />
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>int</aas:valueType>
+                        <aas:value>0</aas:value>
+                      </aas:property>
+                    </aas:submodelElement>
+                    <aas:submodelElement>
+                      <aas:property>
+                        <aas:idShort>MotorCurrent</aas:idShort>
+                        <aas:kind>Instance</aas:kind>
+                        <aas:semanticId>
+                          <aas:keys />
+                        </aas:semanticId>
+                        <aas:qualifier />
+                        <aas:valueType>float</aas:valueType>
+                        <aas:value>0</aas:value>
+                      </aas:property>
+                    </aas:submodelElement>
+                  </aas:value>
+                </aas:submodelElementCollection>
+              </aas:submodelElement>
+            </aas:value>
+          </aas:submodelElementCollection>
+        </aas:submodelElement>
+      </aas:submodelElements>
+    </aas:submodel>
+  </aas:submodels>
+  <aas:conceptDescriptions />
+</aas:aasenv>

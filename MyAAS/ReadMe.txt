@@ -1,0 +1,3 @@
+- AAS mit opc2aas erzeugt
+- generierte AAS.xml mit package explorer umgewandelt zu .aasx file für Anwendung in Demo
+- generierte AAS.xml mit package explorer umgewandelt zu .json file für Nachvollziehbarkeit

@@ -1,0 +1,305 @@
+{
+  "assetAdministrationShells": [
+    {
+      "hasDataSpecification": [],
+      "asset": {
+        "keys": []
+      },
+      "submodels": [
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "f5322694-06a9-4c81-9c35-5455b722899f",
+              "index": 0,
+              "idType": "Custom"
+            }
+          ]
+        },
+        {
+          "keys": [
+            {
+              "type": "Submodel",
+              "local": true,
+              "value": "f0816e53-4bdb-45f4-b41d-5bd8d1eff701",
+              "index": 0,
+              "idType": "Custom"
+            }
+          ]
+        }
+      ],
+      "conceptDictionaries": [],
+      "identification": {
+        "idType": "IRI",
+        "id": "MyAAS"
+      },
+      "administration": {
+        "version": "1.0",
+        "revision": "120"
+      },
+      "idShort": "MyAAS",
+      "modelType": {
+        "name": "AssetAdministrationShell"
+      },
+      "descriptions": [
+        {
+          "language": "de",
+          "text": "Automatisch generierte Verwaltungsschale aus dem OPC2AAS Tool."
+        },
+        {
+          "language": "en",
+          "text": "Automatically generated Asset Administration Shell from the OPC2AAS tool."
+        }
+      ]
+    }
+  ],
+  "assets": [],
+  "submodels": [
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "Custom",
+        "id": "f5322694-06a9-4c81-9c35-5455b722899f"
+      },
+      "idShort": "Robot",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "UR3e",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Data",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Manufacturer",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "False",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "InUse",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "boolean"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "CurrentAngle",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "int"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "BaseTemperature",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "float"
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    },
+    {
+      "semanticId": {
+        "keys": []
+      },
+      "qualifiers": [],
+      "hasDataSpecification": [],
+      "identification": {
+        "idType": "Custom",
+        "id": "f0816e53-4bdb-45f4-b41d-5bd8d1eff701"
+      },
+      "idShort": "Motor",
+      "modelType": {
+        "name": "Submodel"
+      },
+      "kind": "Instance",
+      "submodelElements": [
+        {
+          "ordered": false,
+          "allowDuplicates": false,
+          "semanticId": {
+            "keys": []
+          },
+          "constraints": [],
+          "hasDataSpecification": [],
+          "idShort": "LexiumBMH",
+          "modelType": {
+            "name": "SubmodelElementCollection"
+          },
+          "value": [
+            {
+              "ordered": false,
+              "allowDuplicates": false,
+              "semanticId": {
+                "keys": []
+              },
+              "constraints": [],
+              "hasDataSpecification": [],
+              "idShort": "Data",
+              "modelType": {
+                "name": "SubmodelElementCollection"
+              },
+              "value": [
+                {
+                  "value": "",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "Manufacturer",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "string"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "False",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "InUse",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "boolean"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "RotationSpeed",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "int"
+                    }
+                  },
+                  "kind": "Instance"
+                },
+                {
+                  "value": "0",
+                  "semanticId": {
+                    "keys": []
+                  },
+                  "constraints": [],
+                  "hasDataSpecification": [],
+                  "idShort": "MotorCurrent",
+                  "modelType": {
+                    "name": "Property"
+                  },
+                  "valueType": {
+                    "dataObjectType": {
+                      "name": "float"
+                    }
+                  },
+                  "kind": "Instance"
+                }
+              ],
+              "kind": "Instance"
+            }
+          ],
+          "kind": "Instance"
+        }
+      ]
+    }
+  ],
+  "conceptDescriptions": []
+}

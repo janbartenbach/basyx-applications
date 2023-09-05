@@ -5,7 +5,7 @@
     "serverPort": 4840,
     "pathToService": "",
     "nodeInformation": "ns=2;i=7",
-    "requestPublishingInterval": 50
+    "requestPublishingInterval": 1000
   },
   {
     "uniqueId": "source://Robot/UR3e/Data/InUse",
@@ -13,7 +13,7 @@
     "serverPort": 4840,
     "pathToService": "",
     "nodeInformation": "ns=2;i=8",
-    "requestPublishingInterval": 50
+    "requestPublishingInterval": 1000
   },
   {
     "uniqueId": "source://Robot/UR3e/Data/CurrentAngle",
@@ -21,7 +21,7 @@
     "serverPort": 4840,
     "pathToService": "",
     "nodeInformation": "ns=2;i=9",
-    "requestPublishingInterval": 50
+    "requestPublishingInterval": 1000
   },
   {
     "uniqueId": "source://Robot/UR3e/Data/BaseTemperature",
@@ -29,7 +29,7 @@
     "serverPort": 4840,
     "pathToService": "",
     "nodeInformation": "ns=2;i=10",
-    "requestPublishingInterval": 50
+    "requestPublishingInterval": 1000
   },
   {
     "uniqueId": "source://Motor/LexiumBMH/Data/Manufacturer",
@@ -37,7 +37,7 @@
     "serverPort": 4840,
     "pathToService": "",
     "nodeInformation": "ns=2;i=11",
-    "requestPublishingInterval": 50
+    "requestPublishingInterval": 1000
   },
   {
     "uniqueId": "source://Motor/LexiumBMH/Data/InUse",
@@ -45,7 +45,7 @@
     "serverPort": 4840,
     "pathToService": "",
     "nodeInformation": "ns=2;i=12",
-    "requestPublishingInterval": 50
+    "requestPublishingInterval": 1000
   },
   {
     "uniqueId": "source://Motor/LexiumBMH/Data/RotationSpeed",
@@ -53,7 +53,7 @@
     "serverPort": 4840,
     "pathToService": "",
     "nodeInformation": "ns=2;i=13",
-    "requestPublishingInterval": 50
+    "requestPublishingInterval": 1000
   },
   {
     "uniqueId": "source://Motor/LexiumBMH/Data/MotorCurrent",
@@ -61,6 +61,6 @@
     "serverPort": 4840,
     "pathToService": "",
     "nodeInformation": "ns=2;i=14",
-    "requestPublishingInterval": 50
+    "requestPublishingInterval": 1000
   }
 ]
