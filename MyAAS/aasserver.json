@@ -1,8 +1,9 @@
 [
   {
     "uniqueId": "sink://Robot/UR3e/Data/Manufacturer",
-    "submodelEndpoint": "http://host.docker.internal:4500/aasServer/shells/MyAAS/aas/submodels/Robot/submodel",
-    "idShortPath": "UR3e/Data/Manufacturer"
+    "submodelEndpoint": "http://host.docker.internal:8082/submodels/TWF0ZXJpYWxfZXhhbXBsZQ==",
+    "idShortPath": "processes",
+    "api": "DotAAS-V3"
   },
   {
     "uniqueId": "sink://Robot/UR3e/Data/InUse",

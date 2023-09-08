@@ -47,6 +47,7 @@ try:
 
         # Update values for nodes in Layer3_Second with different datatypes
         layer3_second_string.set_value("Schneider Electric")
+        # layer3_second_string.set_value(str(random.randint(0, 100)))
         layer3_second_boolean.set_value(bool(random.getrandbits(1)))
         layer3_second_integer.set_value(random.randint(0, 100))
         layer3_second_float.set_value(random.uniform(0.5, 1.0))

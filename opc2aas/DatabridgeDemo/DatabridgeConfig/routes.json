@@ -1,10 +1,7 @@
 [
   {
     "datasource": "source://Robot/UR3e/Data/Manufacturer",
-    "transformers": [
-      "dataValueToJson",
-      "jsonataExtractValue"
-    ],
+    "transformers": [],
     "datasinks": [
       "sink://Robot/UR3e/Data/Manufacturer"
     ],
